@@ -11,6 +11,6 @@ function multiply(...args){
     for(var i = 0; args[i] != undefined; i++){
         product *= args[i]
     }
-    return sum
+    return product
 }
 module.exports = {add,multiply}
